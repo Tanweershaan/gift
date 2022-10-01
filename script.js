@@ -21,7 +21,7 @@ this.txt = fullTxt.substring(0, this.txt.length + 1);
 this.el.innerHTML = '<span class="wrap" style="color:white;">' + this.txt + "</span>";
 
 var that = this;
-var delta = 300 - Math.random() * 10000;
+var delta = 300 - Math.random() * 600;
 
 if (this.isDeleting) {
 delta /= 2;
